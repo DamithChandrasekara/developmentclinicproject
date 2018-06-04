@@ -1,4 +1,5 @@
-<div class="container">
+<!-- Page Content -->
+    <div class="container">
 
       <div class="row">
 
@@ -151,3 +152,4 @@
       <!-- /.row -->
 
     </div>
+    <!-- /.container -->
