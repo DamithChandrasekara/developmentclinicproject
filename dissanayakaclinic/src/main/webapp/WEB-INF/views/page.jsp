@@ -6,8 +6,8 @@
 <spring:url var="css" value="resources/css" />
 <spring:url var="images" value="resources/images" />
 <spring:url var="js" value="resources/js" />
-<spring:url var="scss" value="resources/scss" />
-<spring:url var="vendor" value="resources/vendor" />
+<spring:url var="jquery" value="resources/jquery" />
+
 
 <c:set var="contextRoot" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
@@ -65,6 +65,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="${jquery}/jquery.min.js"></script>
     <script src="${js}/bootstrap.bundle.min.js"></script>
+    
+    <script src="${js}/myscript.js"></script>
 
   </body>
 

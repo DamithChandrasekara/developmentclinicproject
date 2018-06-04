@@ -15,6 +15,12 @@
 	</properties>
 	<dependencies>
 
+		<!-- Link Backend Project To Front End -->
+		<dependency>
+			<groupId>dam.kum</groupId>
+			<artifactId>dissanayakaclinicbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>
