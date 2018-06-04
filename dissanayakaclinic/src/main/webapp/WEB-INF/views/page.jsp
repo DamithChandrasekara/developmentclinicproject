@@ -4,7 +4,7 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
 <spring:url var="css" value="resources/css" />
-<spring:url var="imgages" value="resources/imgages" />
+<spring:url var="images" value="resources/images" />
 <spring:url var="js" value="resources/js" />
 <spring:url var="scss" value="resources/scss" />
 <spring:url var="vendor" value="resources/vendor" />
