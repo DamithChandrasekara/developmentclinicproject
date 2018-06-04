@@ -21,6 +21,10 @@
     <meta name="author" content="">
 
     <title>Dissanayaka Clinic - ${title}</title>
+    
+    <script>
+    	window.menu = '${title}';
+    </script>
 
     <!-- Bootstrap core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
@@ -38,9 +42,21 @@
 
     <!-- Page Content -->
     <c:if test="${UserClickedHome == true}">
-    <%@include file="./home.jsp" %>
+    <%@include file="home.jsp" %>
     </c:if>
     <!-- /Page Content -->
+    
+    <!-- When Only Clicked About Us -->
+    <c:if test="${UserClickedAbout == true}">
+    <%@include file="about.jsp" %>
+    </c:if>
+    <!-- /When Only Clicked About Us -->
+    
+    <!-- When Only Clicked Contact Us -->
+    <c:if test="${UserClickedContact == true}">
+    <%@include file="contact.jsp" %>
+    </c:if>
+    <!-- /When Only Clicked Contact Us -->
 
     <!-- Footer -->
     <%@include file="./shared/footer.jsp" %>
